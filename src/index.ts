@@ -1,6 +1,6 @@
 import { type MutableRefObject, useState } from "react";
 
-export const useInitRef = <T = unknown>(current: T): MutableRefObject<T> => {
-  const [ref] = useState(() => ({ current }));
+export const useInitRef = <T = unknown>(init: () => T): MutableRefObject<T> => {
+  const [ref] = useState(() => ({ current: init() }));
   return ref;
 };

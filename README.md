@@ -3,7 +3,7 @@
 You can call this
 
 ```
-const myRef = useRef(new Matrix4())
+const myRef = useRef(()=>new Matrix4())
 ```
 
-But it wont create `new Matrix4()` with each render.
+And it should execute only once.
