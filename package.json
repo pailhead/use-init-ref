@@ -1,0 +1,38 @@
+{
+  "name": "use-init-ref",
+  "version": "0.0.1",
+  "type": "module",
+  "file": [
+    "dist/*"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --sourcemap --format esm,cjs --dts"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "description": "useRef for react but it doesnt create/initialize the contents with ever render",
+  "author": "Dusan Bosnjak <dusan.bosnjak.dev@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "useref",
+    "hook"
+  ]
+}
