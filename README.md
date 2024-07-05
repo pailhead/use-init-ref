@@ -29,3 +29,7 @@ const [myMatrix] = useState(()=>new Matrix4())
 // later, you are unable to change the contents
 // ? = new Vector4()
 ```
+
+`useInitRef` allows you to pass the initializer function like you would in `useState` but you get `MutableRefObject<T>` as you would with normal `useRef`.
+
+If used on primitives eg `foo` or `5`, best to just use the normal `useRef`.
