@@ -1,3 +1,9 @@
+# Demo
+
+[Codesandbox](https://codesandbox.io/p/sandbox/useref-yydrkz?file=%2Fsrc%2FApp.tsx)
+
+![](https://github.com/pailhead/use-init-ref/blob/master/useRef.gif)
+
 # Description
 
 You can call this:
