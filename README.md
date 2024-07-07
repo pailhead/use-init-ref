@@ -1,10 +1,14 @@
-# Demo
+# use-init-ref
+
+[![npm version](https://img.shields.io/npm/v/@pailhead/use-init-ref.svg)](https://www.npmjs.com/package/@pailhead/use-init-ref)
+
+## Demo
 
 [Codesandbox](https://codesandbox.io/p/sandbox/useref-yydrkz?file=%2Fsrc%2FApp.tsx)
 
 ![](https://github.com/pailhead/use-init-ref/blob/master/useRef.gif)
 
-# Description
+## Description
 
 You can call this:
 
