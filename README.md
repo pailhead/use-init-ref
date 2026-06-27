@@ -6,8 +6,6 @@
 
 [Codesandbox](https://codesandbox.io/p/sandbox/useref-yydrkz?file=%2Fsrc%2FApp.tsx)
 
-![](https://github.com/pailhead/use-init-ref/blob/master/useRef.gif)
-
 ## Usage
 
 Be explicit that `useInitRef` takes an initializer, use normal `useRef` for primitives.
